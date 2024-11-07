@@ -25,7 +25,7 @@ Clonar el repositorio Primero, clona este repositorio a tu máquina local con el
 ```bash
 git clone https://github.com/tu-usuario/tu-repositorio.git
 
-Instalar dependencias Accede al directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias necesarias:
+**Instalar dependencias** Accede al directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias necesarias:
 
 ```bash
 cd nombre-del-proyecto
