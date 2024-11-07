@@ -22,17 +22,19 @@ Sigue los siguientes pasos para clonar el repositorio y ejecutar el proyecto en 
 
 Clonar el repositorio Primero, clona este repositorio a tu máquina local con el siguiente comando:
 
-bash
+```bash
 git clone https://github.com/tu-usuario/tu-repositorio.git
+
 Instalar dependencias Accede al directorio del proyecto y ejecuta el siguiente comando para instalar las dependencias necesarias:
 
-bash
+```bash
 cd nombre-del-proyecto
 npm install
+
 Configurar el backend (opcional) Este proyecto hace uso de un backend para obtener las categorías y los posts. Si el backend no está incluido en el repositorio, asegúrate de tenerlo configurado o modificar las llamadas a la API en el servicio correspondiente (PostService y CategoryService) para usar una API existente.
 
 Ejemplo de API de posts:
-
+```bash
 json
 [
   {
