@@ -11,7 +11,7 @@ export class RegistroService {
 
   registroUser(formData: any): Observable<any> {
     const url = `http://localhost:8000/api/register`;
-    console.log(formData);
+
     return this.http.post<any>(url, formData).pipe(
 
       catchError(error => {

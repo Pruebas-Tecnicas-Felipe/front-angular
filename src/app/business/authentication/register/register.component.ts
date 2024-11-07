@@ -13,7 +13,7 @@ import { RouterModule } from '@angular/router';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
-export class RegisterComponent implements OnInit {
+export default class RegisterComponent implements OnInit {
 
   respuesta: string = '';
 

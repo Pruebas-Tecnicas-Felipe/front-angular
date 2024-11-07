@@ -13,13 +13,13 @@ export const routes: Routes = [
                 canActivate: [AuthGuard]
             },
             {
-                path: 'profile',
-                loadComponent: () => import('./business/profile/profile.component'),
+                path: 'posts',
+                loadComponent: () => import('./business/posts/posts.component'),
                 canActivate: [AuthGuard]
             },
             {
-                path: 'tables',
-                loadComponent: () => import('./business/tables/tables.component'),
+                path: 'categories',
+                loadComponent: () => import('./business/categories/categories.component'),
                 canActivate: [AuthGuard]
             },
             {
@@ -37,7 +37,7 @@ export const routes: Routes = [
     },
     {
       path: 'register',
-      loadComponent: () => import('./business/authentication/register/register.component').then(m => m.RegisterComponent),
+      loadComponent: () => import('./business/authentication/register/register.component'),
       canActivate: [AuthenticatedGuard]
     },
     {
